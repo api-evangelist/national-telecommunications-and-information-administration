@@ -16,6 +16,10 @@ tags:
   - Telecommunications
 apis: []
 common:
+  - type: GitHubOrganization
+    url: https://github.com/ntia
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/ntia
   - type: Website
     url: https://www.ntia.gov/
 maintainers:
