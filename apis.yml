@@ -16,12 +16,16 @@ tags:
   - Telecommunications
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/national-telecommunications-and-information-administration-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/ntia
   - type: LinkedIn
     url: https://www.linkedin.com/company/ntia
   - type: Website
     url: https://www.ntia.gov/
+  - type: Blog
+    url: https://www.ntia.gov/rss.xml
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com

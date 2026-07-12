@@ -1,0 +1,21 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.ntia.gov
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct 19 01:40:06 2026 GMT
+  hsts: true
+  hsts_max_age: 31536000
+domains:
+- domain: ntia.gov
+  dnssec: true
+  caa:
+  - 0 issuewild "ssl.com"
+  - 0 issue "digicert.com"
+  - 0 issue "ssl.com"
+  - 0 issuewild "digicert.com"
+  spf: true
+  dmarc: true
+  dmarc_policy: reject
